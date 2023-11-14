@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/lin/catkin_ws/src/ssr_pkg/CMakeLists.txt:208:
+  Parse error.  Expected "(", got newline with text "
+
+  ".
+
+

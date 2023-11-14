@@ -1,0 +1,13 @@
+[01m[K/home/lin/catkin_ws/src/atr_pkg/src/ma_node.cpp:[m[K In function ‘[01m[Kvoid chao_callback(std::string)[m[K’:
+[01m[K/home/lin/catkin_ws/src/atr_pkg/src/ma_node.cpp:6:16:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kconst _CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::data() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+    6 |     printf([01;31m[Kmsg.data[m[K.c_str());
+      |            [01;31m[K~~~~^~~~[m[K
+      |                    [32m[K()[m[K
+[01m[K/home/lin/catkin_ws/src/atr_pkg/src/ma_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lin/catkin_ws/src/atr_pkg/src/ma_node.cpp:15:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ros::NodeHandle[m[K’ has no member named ‘[01m[Ksubscriber[m[K’; did you mean ‘[01m[Ksubscribe[m[K’?
+   15 |     ros::Subscriber sub = nh.[01;31m[Ksubscriber[m[K("kuai_shang_che_kai_hei_qun",10,chao_callback);
+      |                              [01;31m[K^~~~~~~~~~[m[K
+      |                              [32m[Ksubscribe[m[K
+make[2]: *** [CMakeFiles/ma_node.dir/build.make:63: CMakeFiles/ma_node.dir/src/ma_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/ma_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,1 @@
+/home/lin/catkin_ws/devel/.private/ssr_pkg/share/ssr_pkg/cmake/ssr_pkgConfig.cmake

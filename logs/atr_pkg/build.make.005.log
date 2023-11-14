@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target ma_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ma_node.dir/src/ma_node.cpp.o[0m
+[01m[K/home/lin/catkin_ws/src/atr_pkg/src/ma_node.cpp:[m[K In function ‘[01m[Kvoid chao_callback(std::string)[m[K’:
+[01m[K/home/lin/catkin_ws/src/atr_pkg/src/ma_node.cpp:6:16:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kconst _CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::data() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+    6 |     printf([01;31m[Kmsg.data[m[K.c_str());
+      |            [01;31m[K~~~~^~~~[m[K
+      |                    [32m[K()[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/serialization.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/lin/catkin_ws/src/atr_pkg/src/ma_node.cpp:1[m[K:
+/opt/ros/noetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value() [with M = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:227:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum() [with M = std::__cxx11::basic_string<char>][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscribe_options.h:89:49:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = std::__cxx11::basic_string<char>; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = std::__cxx11::basic_string<char>][m[K’
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:659:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&) [with M = std::__cxx11::basic_string<char>; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/lin/catkin_ws/src/atr_pkg/src/ma_node.cpp:15:85:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:120:28:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getMD5Sum[m[K’ is not a member of ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’
+  120 |     return [01;31m[KM::__s_getMD5Sum()[m[K.c_str();
+      |            [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+/opt/ros/noetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value() [with M = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:236:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype() [with M = std::__cxx11::basic_string<char>][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscribe_options.h:90:53:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = std::__cxx11::basic_string<char>; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = std::__cxx11::basic_string<char>][m[K’
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:659:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&) [with M = std::__cxx11::basic_string<char>; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/lin/catkin_ws/src/atr_pkg/src/ma_node.cpp:15:85:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:137:30:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getDataType[m[K’ is not a member of ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’
+  137 |     return [01;31m[KM::__s_getDataType()[m[K.c_str();
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+make[2]: *** [CMakeFiles/ma_node.dir/build.make:63: CMakeFiles/ma_node.dir/src/ma_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/ma_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

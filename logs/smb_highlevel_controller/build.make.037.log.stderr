@@ -1,0 +1,8 @@
+[01m[K/home/lin/catkin_ws/src/smb_highlevel_controller/src/smb_highlevel_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lin/catkin_ws/src/smb_highlevel_controller/src/smb_highlevel_controller.cpp:24:57:[m[K [01;31m[Kerror: [m[K‘[01m[KLaserScanCallback[m[K’ was not declared in this scope; did you mean ‘[01m[KlaserScanCallback[m[K’?
+   24 |     ros::Subscriber sub = nh.subscribe("/laser_scan",10,[01;31m[KLaserScanCallback[m[K);
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                         [32m[KlaserScanCallback[m[K
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:63: CMakeFiles/smb_highlevel_controller.dir/src/smb_highlevel_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/smb_highlevel_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

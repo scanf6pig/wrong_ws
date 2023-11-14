@@ -1,0 +1,1 @@
+/home/lin/catkin_ws/devel/.private/ssr_pkg/lib/pkgconfig/ssr_pkg.pc
