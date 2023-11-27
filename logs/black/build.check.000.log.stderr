@@ -1,0 +1,13 @@
+[31m[1mCMake Error[0m at /home/lin/catkin_ws/src/black/CMakeLists.txt:208 (add_library):
+  The target name "$img_pub_node.cpp" is reserved or not valid for certain
+  CMake features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+[31m[1mCMake Error[0m at /home/lin/catkin_ws/src/black/CMakeLists.txt:211 (add_executable):
+  The target name "$img_pub_node" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+make: *** [Makefile:670: cmake_check_build_system] Error 1

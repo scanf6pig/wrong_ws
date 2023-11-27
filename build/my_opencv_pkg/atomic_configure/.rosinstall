@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lin/catkin_ws/devel/.private/my_opencv_pkg/setup.sh

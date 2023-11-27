@@ -1,0 +1,8 @@
+prefix=/home/lin/catkin_ws/devel/.private/black
+
+Name: black
+Description: Description of black
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

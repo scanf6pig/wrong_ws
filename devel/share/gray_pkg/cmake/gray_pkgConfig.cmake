@@ -1,0 +1,1 @@
+/home/lin/catkin_ws/devel/.private/gray_pkg/share/gray_pkg/cmake/gray_pkgConfig.cmake

@@ -1,0 +1,8 @@
+prefix=/home/lin/catkin_ws/devel/.private/OpenCV_test
+
+Name: OpenCV_test
+Description: Description of OpenCV_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

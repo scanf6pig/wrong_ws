@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target gray_image_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gray_image_node.dir/src/gray_image_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/lin/catkin_ws/devel/.private/gray_pkg/lib/gray_pkg/gray_image_node[0m
+[100%] Built target gray_image_node

@@ -1,0 +1,6 @@
+[33mWARNING: Package name "OpenCV_test" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.[0m
+[31m[1mCMake Error[0m at /home/lin/catkin_ws/src/OpenCV_test/CMakeLists.txt:214 (target_link_libraries):
+  Cannot specify link libraries for target "OpenCV_test_node" which is not
+  built by this project.
+
+

@@ -1,0 +1,1 @@
+/home/lin/catkin_ws/devel/.private/image_reader/lib/pkgconfig/image_reader.pc

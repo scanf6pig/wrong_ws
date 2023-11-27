@@ -1,0 +1,5 @@
+black
+/home/lin/catkin_ws/devel/.private/black/cmake.lock /home/lin/catkin_ws/devel/./cmake.lock
+/home/lin/catkin_ws/devel/.private/black/share/black/cmake/blackConfig.cmake /home/lin/catkin_ws/devel/share/black/cmake/blackConfig.cmake
+/home/lin/catkin_ws/devel/.private/black/share/black/cmake/blackConfig-version.cmake /home/lin/catkin_ws/devel/share/black/cmake/blackConfig-version.cmake
+/home/lin/catkin_ws/devel/.private/black/lib/pkgconfig/black.pc /home/lin/catkin_ws/devel/lib/pkgconfig/black.pc

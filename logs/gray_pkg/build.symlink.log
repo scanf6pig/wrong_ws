@@ -1,0 +1,4 @@
+Symlinking /home/lin/catkin_ws/devel/share/gray_pkg/cmake/gray_pkgConfig.cmake
+Symlinking /home/lin/catkin_ws/devel/share/gray_pkg/cmake/gray_pkgConfig-version.cmake
+Symlinking /home/lin/catkin_ws/devel/lib/gray_pkg/gray_image_node
+Symlinking /home/lin/catkin_ws/devel/lib/pkgconfig/gray_pkg.pc

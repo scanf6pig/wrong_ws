@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/lin/catkin_ws/src/my_opencv_pkg/CMakeLists.txt:209 (target_link_libraries):
+  Cannot specify link libraries for target "image_test.cpp" which is not
+  built by this project.
+
+

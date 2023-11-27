@@ -1,0 +1,1 @@
+/home/lin/catkin_ws/devel/.private/black/share/black/cmake/blackConfig.cmake

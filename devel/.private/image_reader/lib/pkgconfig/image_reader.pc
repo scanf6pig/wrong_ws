@@ -1,0 +1,8 @@
+prefix=/home/lin/catkin_ws/devel/.private/image_reader
+
+Name: image_reader
+Description: Description of image_reader
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

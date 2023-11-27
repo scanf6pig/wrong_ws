@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target gray_image_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gray_image_node.dir/src/gray_image_node.cpp.o[0m
+[01m[K/home/lin/catkin_ws/src/gray_pkg/src/gray_image_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lin/catkin_ws/src/gray_pkg/src/gray_image_node.cpp:31:25:[m[K [01;31m[Kerror: [m[K‘[01m[KWINDOW_AUTOSIZE[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::WINDOW_AUTOSIZE[m[K’?
+   31 |     namewindow("灰希",[01;31m[KWINDOW_AUTOSIZE[m[K);
+      |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                         [32m[Kcv::WINDOW_AUTOSIZE[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:68[m[K,
+                 from [01m[K/home/lin/catkin_ws/src/gray_pkg/src/gray_image_node.cpp:2[m[K:
+[01m[K/usr/include/opencv4/opencv2/highgui.hpp:184:8:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::WINDOW_AUTOSIZE[m[K’ declared here
+  184 |        [01;36m[KWINDOW_AUTOSIZE[m[K   = 0x00000001, //!< the user cannot resize the window, the size is constrainted by the image displayed.
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/lin/catkin_ws/src/gray_pkg/src/gray_image_node.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knamewindow[m[K’ was not declared in this scope
+   31 |     [01;31m[Knamewindow[m[K("灰希",WINDOW_AUTOSIZE);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lin/catkin_ws/src/gray_pkg/src/gray_image_node.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaitkey[m[K’ was not declared in this scope; did you mean ‘[01m[Kwrite[m[K’?
+   34 |     [01;31m[Kwaitkey[m[K(0);
+      |     [01;31m[K^~~~~~~[m[K
+      |     [32m[Kwrite[m[K
+[01m[K/home/lin/catkin_ws/src/gray_pkg/src/gray_image_node.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdestroywindow[m[K’ was not declared in this scope
+   36 |     [01;31m[Kdestroywindow[m[K("灰希");
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/gray_image_node.dir/build.make:63: CMakeFiles/gray_image_node.dir/src/gray_image_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gray_image_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

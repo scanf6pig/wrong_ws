@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/lin/catkin_ws/devel/.private/smb_control:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/lin/catkin_ws/devel/.private/smb_control/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/lin/catkin_ws/devel/.private/smb_control/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/lin/catkin_ws/build/smb_control'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/lin/catkin_ws/devel/.private/smb_control/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/lin/catkin_ws/src/smb_common/smb_control:$ROS_PACKAGE_PATH"

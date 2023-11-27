@@ -1,0 +1,42 @@
+/home/lin/clion-2023.2.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/home/lin/catkin_ws -G "CodeBlocks - Unix Makefiles" -S /home/lin/catkin_ws/src -B /home/lin/catkin_ws/src/cmake-build-debug
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - failed
+-- Check for working CXX compiler: /home/lin/catkin_ws
+-- Check for working CXX compiler: /home/lin/catkin_ws - broken
+CMake Error at /home/lin/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:60 (message):
+  The C++ compiler
+
+    "/home/lin/catkin_ws"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /home/lin/catkin_ws/src/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mW43Z9
+    
+    Run Build Command(s):/home/lin/clion-2023.2.2/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d81c7/fast && /usr/bin/make  -f CMakeFiles/cmTC_d81c7.dir/build.make CMakeFiles/cmTC_d81c7.dir/build
+    make[1]: Entering directory '/home/lin/catkin_ws/src/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mW43Z9'
+    Building CXX object CMakeFiles/cmTC_d81c7.dir/testCXXCompiler.cxx.o
+    /home/lin/catkin_ws    -o CMakeFiles/cmTC_d81c7.dir/testCXXCompiler.cxx.o -c /home/lin/catkin_ws/src/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mW43Z9/testCXXCompiler.cxx
+    make[1]: execvp: /home/lin/catkin_ws: Permission denied
+    make[1]: *** [CMakeFiles/cmTC_d81c7.dir/build.make:78: CMakeFiles/cmTC_d81c7.dir/testCXXCompiler.cxx.o] Error 127
+    make[1]: Leaving directory '/home/lin/catkin_ws/src/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mW43Z9'
+    make: *** [Makefile:127: cmTC_d81c7/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:6 (project)
+
+
+-- Configuring incomplete, errors occurred!
